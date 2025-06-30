@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#notice-bar{
+    background-color: rgb(221, 243, 252);
+    text-decoration: none;
+}
+
+#navbarNav ul li a:hover{
+    background: rgba(255,255,255,0.2);
+} 
+.navbar-brand img
+{
+    height: 30px;
+    width: 250px;
+}
+.navbar
+{
+    background-color: rgb(0, 102, 179);
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1300px;
+    }
+}
+.ai-center{
+    align-items: center;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+    
+#intro  h1 {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 6px;
+
+    }
+    
+#intro a{
+text-decoration: none;
+
+    }
+  
+#features h1{
+    margin-bottom: 15px;
+}
+
+
+
+#features{
+    background-color: rgb(246, 252, 255);
+}
+
+#table table td,th{
+    border: none;
+    padding: 16px;
+text-align: left;
+
+}
+#table table{
+   
+    border-style: none;
+box-shadow: 1px 10px 40px 0px rgba(72, 76, 78, 0.15);
+margin-top: 16px;
+}
+
+#table table tr:nth-of-type(odd)
+{
+    background-color: rgb(243, 252, 255);
+}
+
+#table table tr:first-child
+{
+    background :none;
+}
+
+footer{
+    background-color: rgb(0, 102, 179);
+
+}
+
+#body1
+{
+    background-color: rgb(243, 252, 255);
+}
